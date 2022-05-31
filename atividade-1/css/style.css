@@ -1,0 +1,127 @@
+    * {
+        /* (um cubo) com as mesmas dimensões ou suas margens alterando a sua distância de um elemento para outro */
+        margin: 0;
+        /* distância do meu elemento (cubo) e suas bordas */
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+      
+      .container {
+        width: 100%;
+        height: 128px;
+        background-color: #a1cef8;
+      }
+      .container img {
+        margin-top: 1rem;
+        margin-left: 10rem;
+      }
+      .menu {
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 40rem;
+        margin-top: -3rem;
+        
+      }
+      
+      .texto {
+          text-decoration: none;
+          list-style: none;
+          padding-right: 2rem;
+          color: #1A396B;
+      }
+      
+      .texto a {
+          text-decoration: none;
+      }
+      
+      
+      .principal{
+          width: 100%;
+          display: flex;
+          text-align: center;
+      }
+      
+      #ftfundo{
+          width: 1349px;
+      }
+      #cursos-destaque{
+          color: #1A396B;
+      }
+      .cursos{
+          display: flex;
+          justify-content: space-around;
+          margin-top: 20px;
+      }
+      .cursos-img{
+          border-radius: 20px;
+      }
+      .Cursos-Mural{
+          text-align: center;
+      
+      }
+      .titulo{
+          color:#FF5551;
+          font-weight: bold;
+          font-size: 30px;
+      
+      }
+      .subtitulo{
+          color: #1A396B;
+          /*expessura da minha font( light,media,bold->negrito)*/
+          font-weight: bold;
+          /* tamanho da fonte*/
+          font-size: 24px;
+      
+      }
+      
+      h1{
+          text-align:center;
+          font-size: 36px;
+          margin-bottom: 20px;
+      }
+      header{
+          width: 100%;
+          height: 120px ;
+          background-color: #A1CEF8;
+      
+      }
+      section{
+          margin: 0 auto;
+      }
+      footer{
+          background-color:#1A396B;
+          height: 100px;
+          margin-top: 30px;
+      }
+      #LGPD{
+          text-align:left;
+          position: absolute;
+          margin: -3rem 3rem;
+          color: white;
+          
+      }
+      .LGPD p{ 
+        margin: 5 rem 2 rem;
+      }
+      .redes-sociais{
+          display:flex;
+          justify-content: right;
+
+      }
+      #whatsapp{
+         margin: 20px  15px;
+
+      }
+      #instagram{
+        
+        margin: 20px  15px;
+
+    }
+    #twitter{
+        margin: 20px  15px;
+
+    }
+      
